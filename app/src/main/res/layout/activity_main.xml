@@ -23,6 +23,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_observable" />
-        " />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_observable2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button observable 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_flowable" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
